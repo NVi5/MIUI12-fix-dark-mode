@@ -1,7 +1,7 @@
 # MIUI12-fix-dark-mode
 
 Based on [alex4o/magisk-fix-darkmode-miui-services](https://github.com/alex4o/magisk-fix-darkmode-miui-services) solution, but made my own version, because I had trouble using his repo.\
-You can use module I put in repo or create one for yourself using own services.jar file.\
+You can use module I put in repo or create one for yourself using own services.jar file, by following instruction from Makefile.\
 In case phone doesn't start you can remove module folder using twrp. 
 
 Changes that need to be done after decompiling.\
