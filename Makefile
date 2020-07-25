@@ -10,7 +10,8 @@ asm:
 	java -jar smali-2.4.0.jar assemble app -o classes.dex
 
 #Replace classes.dex in services.apk
-move:
-	powershell mv services.apk \Fix-Dark-Mode\system\framework\services.jar
+copy:
+	powershell mkdir Fix-Dark-Mode\system\framework
+	powershell cp services.apk Fix-Dark-Mode\system\framework\services.jar
 
 #Zip files in Fix-Dark-Mode to make magisk module
